@@ -1,0 +1,8 @@
+let mapleader = ","
+
+let g:tagbar_ctags_bin = '/Users/bpyoder/Developer/bin/ctags'
+
+let g:autosave_on_blur = "true"
+let g:Powerline_symbols = "fancy"
+let g:Powerline_colorscheme = "skwp"
+

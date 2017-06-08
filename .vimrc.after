@@ -1,0 +1,13 @@
+:set autowrite
+
+"Set .hamlc files to be highlighted as HAML
+au BufNewFile,BufRead *.hamlc set filetype=haml
+
+syntax enable
+set background=dark
+colorscheme solarized
+
+call Pl#Theme#InsertSegment('ws_marker', 'after', 'lineinfo')
+
+map <leader>jt  <Esc>:%!json_xs -f json -t json-pretty<CR>
+
